@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "botlauncher",
+  "version": "1.0.0",
+  "name": "Bot Launcher",
+  "description": "Lance et contrôle ton bot Minecraft IA directement depuis le jeu",
+  "authors": ["yochi160"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/botlauncher/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.botlauncher.BotLauncherMod"],
+    "client": ["com.botlauncher.BotLauncherClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
